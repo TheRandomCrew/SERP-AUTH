@@ -1,0 +1,42 @@
+{
+  "name": "serp-auth",
+  "version": "1.1.1",
+  "description": "simple nodejs rest api with authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "mongodb",
+    "secure",
+    "server",
+    "express",
+    "nodejs",
+    "rest",
+    "api",
+    "authenticate",
+    "backend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luis-rp/SERP-AUTH.git"
+  },
+  "author": "Israel-Laguan <https://github.com/Israel-Laguan>,sachin jaiswal",
+  "bugs": {
+    "url": "https://github.com/luis-rp/SERP-AUTH/issues"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.13"
+  },
+  "engines": {
+    "node": "8.15.0",
+    "npm": "6.5.0"
+  }
+}
